@@ -9,7 +9,7 @@ export default function Header() {
         <Image src="/logo.png" width={124} height={62} alt="Logo" />
 
         {/*//! Navigation Links */}
-        <div className="flex flex-1 gap-[57px]">
+        <div className="flex flex-1 gap-[29.35px]">
           <NavigationLinks />
 
           <div className="rounded-full w-[62.64849853515625px] h-[61px] flex items-center justify-center cursor-pointer bg-primary-500">
