@@ -219,7 +219,7 @@ export default function SubText_typing({ texts, className = "" }: { texts: strin
       typingSpeed={75}
       pauseDuration={1500}
       showCursor={true}
-      cursorCharacter="|"
+      cursorCharacter="."
     />
   );
 }

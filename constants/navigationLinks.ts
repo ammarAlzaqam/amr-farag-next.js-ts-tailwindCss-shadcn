@@ -1,38 +1,46 @@
+import { FaHome as HomeIcon } from "react-icons/fa";
+import { IoMdInformationCircleOutline as AboutIcon } from "react-icons/io";
+import { MdOutlineSettingsSuggest as ServicesIcon } from "react-icons/md";
+import { IoBagSharp as PortfolioIcon } from "react-icons/io5";
+import { FaHeadphonesAlt as ContactIcon } from "react-icons/fa";
+import { SiTrustpilot as TestimonialsIcon } from "react-icons/si";
+import { IconType } from "react-icons";
+
 interface NavigationLink {
-  Icon: any;
+  Icon: IconType;
   route: string;
   label: string;
 }
 
 const navigationLinks: NavigationLink[] = [
   {
-    Icon: "",
-    route: "/",
+    Icon: HomeIcon,
+    route: "#home",
     label: "Home",
   },
   {
-    Icon: "",
-    route: "/about",
+    Icon: AboutIcon,
+    route: "#about",
     label: "About",
   },
   {
-    Icon: "",
-    route: "/services",
+    Icon: ServicesIcon,
+    route: "#services",
     label: "Services",
   },
   {
-    Icon: "",
-    route: "/portfolio",
+    Icon: PortfolioIcon,
+    route: "#portfolio",
     label: "Portfolio",
   },
   {
-    Icon: "",
-    route: "/testimonials",
+    Icon: TestimonialsIcon,
+    route: "#testimonials",
     label: "Testimonials",
   },
   {
-    Icon: "",
-    route: "/contact",
+    Icon: ContactIcon,
+    route: "#contact",
     label: "Contact",
   },
 ];

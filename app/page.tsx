@@ -1,17 +1,23 @@
-import Des_scroll from "@/components/animations/Des_scroll";
-import HeadText_blur from "@/components/animations/HeadText_blur";
-import HeadText_split from "@/components/animations/HeadText_split";
-import SubText_typing from "@/components/animations/SubText_typing";
-import Title_scroll from "@/components/animations/Title_scroll";
+import About from "@/components/pages/about";
+import Contact from "@/components/pages/contact";
+import Footer from "@/components/pages/footer";
+import Home from "@/components/pages/Home";
+import Opinions from "@/components/pages/Opinions";
+import Portfolio from "@/components/pages/Portfolio";
+import Services from "@/components/pages/Services";
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <section>
-        {/* <HeadText_split className="text-heading2" text="Welcome to Next.js!" />
-      <SubText_typing
-        className="text-body"
-        texts={["ammar is here", "and is now to update"]}
-      /> */}
+    <section className="">
+      <Home />
+      <About className="pt-[30px] sm:pt-[139px]" />
+      <Services />
+      <Portfolio />
+      <div className="overflow-hidden">
+        <Opinions />
+        <Contact />
+        <Footer />
+      </div>
     </section>
   );
 }

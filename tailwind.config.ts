@@ -4,73 +4,59 @@ module.exports = {
   theme: {
     fontSize: {
       heading1: [
-        "84px",
+        "60px",
         {
-          lineHeight: "120%",
-          fontWeight: "700", // bold
+          lineHeight: "125%",
+          fontWeight: "700",
         },
       ],
       heading2: [
-        "72px",
-        {
-          lineHeight: "120%",
-          fontWeight: "700", // bold
-        },
-      ],
-      heading3: [
         "48px",
         {
-          lineHeight: "auto",
-          fontWeight: "600",
-        },
-      ],
-      body: [
-        "44px",
-        {
-          lineHeight: "160%",
-          fontWeight: "800", // Extrabold
-        },
-      ],
-      base: [
-        "34px",
-        {
-          lineHeight: "auto",
+          lineHeight: "125%",
           fontWeight: "500",
         },
       ],
-      small: [
-        "28px",
+      body: [
+        "30px",
         {
-          lineHeight: "160%",
-          fontWeight: "300",
+          lineHeight: "125%",
+          fontWeight: "400",
         },
       ],
-      "subtle-bold": [
+      base: [
+        "26px",
+        {
+          lineHeight: "125%",
+          fontWeight: "400",
+        },
+      ],
+      small: [
         "24px",
         {
-          lineHeight: "auto",
-          fontWeight: "600",
+          lineHeight: "100%",
+          fontWeight: "500",
         },
       ],
       subtle: [
-        "24px",
+        "22px",
         {
-          lineHeight: "auto",
+          lineHeight: "125%",
           fontWeight: "400",
         },
       ],
       "tiny-bold": [
-        "16px",
+        "21px",
         {
-          lineHeight: "26px",
-          fontWeight: "400",
+          lineHeight: "24px",
+          fontWeight: "700",
         },
       ],
       tiny: [
         "16px",
         {
-          lineHeight: "160%",
-          fontWeight: "300",
+          lineHeight: "125%",
+          fontWeight: "400",
         },
       ],
     },
@@ -78,6 +64,10 @@ module.exports = {
       fontFamily: {
         heading: "var(--font-poppins)",
         body: "var(--font-inter)",
+        footer: "var(--font-manrope)"
+      },
+      screens: {
+        xs: "400px",
       },
     },
   },

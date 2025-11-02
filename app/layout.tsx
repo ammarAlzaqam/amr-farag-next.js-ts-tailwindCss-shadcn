@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Poppins, Inter } from "next/font/google";
+import { Poppins, Inter, Manrope } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/bars/header";
 
@@ -7,6 +7,12 @@ const poppins = Poppins({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700", "800"],
   variable: "--font-poppins",
+});
+
+const manrope = Manrope({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "800"],
+  variable: "--font-manrope",
 });
 
 const inter = Inter({
@@ -28,9 +34,9 @@ export default function RootLayout({
   return (
     <html lang="en" className="overflow-x-hidden">
       <body
-        className={`${poppins.variable} ${inter.variable} antialiased overflow-x-hidden`}
+        className={`${poppins.variable} ${inter.variable} ${manrope.variable} antialiased overflow-x-hidden`}
       >
-        <div className="min-h-dvh bg-[linear-gradient(to_bottom,#CFE9FC,#D3E2F8)]">
+        <div className="min-h-dvh bg-[linear-gradient(to_bottom,#D3E2F8,#CFE9FC)]">
           <Header />
           {children}
         </div>
