@@ -36,7 +36,7 @@ export default function Opinions() {
         alt="opinions-victor"
         width={1200}
         height={1200}
-        className="absolute -z-1 top-0 right-0 w-full max-sm:h-[3600px]"
+        className="absolute -z-1 top-0 right-0 w-full h-[1200px] max-sm:h-[1800px]"
       />
 
       <Image
@@ -44,7 +44,7 @@ export default function Opinions() {
         alt="opinions-r-shadow"
         width={800}
         height={800}
-        className="absolute -bottom-100 -z-1 sm:-bottom-150 -right-0 sm:-right-5"
+        className="absolute -bottom-100 -z-1 sm:-bottom-150 right-0 sm:-right-5"
       />
 
       <Image
@@ -52,7 +52,7 @@ export default function Opinions() {
         alt="opinions-l-shadow"
         width={800}
         height={800}
-        className="absolute -bottom-120 -z-1 sm:-bottom-250 -left-0 sm:-left-5"
+        className="absolute -bottom-120 -z-1 sm:-bottom-250 left-0 sm:-left-5"
       />
     </section>
   );

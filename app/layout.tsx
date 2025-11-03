@@ -34,9 +34,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="overflow-x-hidden">
       <body
-        className={`${poppins.variable} ${inter.variable} ${manrope.variable} overflow-x-hidden min-h-dvh`}
+        className={`${poppins.variable} ${inter.variable} ${manrope.variable} overflow-x-hidden`}
       >
         <Header />
         {children}

@@ -13,11 +13,9 @@ export default function HomePage() {
       <About className="pt-[30px] sm:pt-[139px]" />
       <Services />
       <Portfolio />
-      <div className="overflow-hidden">
-        <Opinions />
-        <Contact />
-        <Footer />
-      </div>
+      <Opinions />
+      <Contact />
+      <Footer />
     </section>
   );
 }
