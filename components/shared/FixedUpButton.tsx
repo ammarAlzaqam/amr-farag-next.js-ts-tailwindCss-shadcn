@@ -22,8 +22,8 @@ export default function FixedUpButton() {
   return (
     <a href="#home" className="fixed bottom-4 right-4 z-100">
       <div
-        className={`sm:hidden transition-opacity duration-500 ${
-          isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
+        className={`sm:hidden transition-all duration-500 ${
+          isVisible ? "opacity-100" : "opacity-0 scale-80 translate-y-5 pointer-events-none"
         }`}
       >
         <button
