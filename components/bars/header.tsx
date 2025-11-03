@@ -6,7 +6,7 @@ import Sidebar from "./Sidebar";
 
 export default function Header() {
   return (
-    <header className="pt-10 absolute z-100 top-0 left-0 w-full">
+    <header className="pt-10 absolute sm:fixed z-100 top-0 left-0 w-full">
       <div className="main-container flex items-center max-md:justify-between gap-23">
         {/*//! Logo image */}
         <Image

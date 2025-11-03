@@ -64,10 +64,21 @@ module.exports = {
       fontFamily: {
         heading: "var(--font-poppins)",
         body: "var(--font-inter)",
-        footer: "var(--font-manrope)"
+        footer: "var(--font-manrope)",
       },
       screens: {
         xs: "400px",
+      },
+      keyframes: {
+        "arrow-bounce": {
+          "0%": { transform: "translateY(120%)", opacity: "0" }, // يبدأ من تحت ومش باين
+          "30%": { transform: "translateY(0)", opacity: "1" }, // يطلع في النص ويبان
+          "70%": { transform: "translateY(-150%)", opacity: "0" }, // يطلع فوق ويختفي
+          "100%": { transform: "translateY(120%)", opacity: "0" }, // يرجع تاني تحت ويختفي
+        },
+      },
+      animation: {
+        "arrow-bounce": "arrow-bounce 0.9s ease-in-out forwards",
       },
     },
   },

@@ -17,8 +17,8 @@ export default function OpinionCard({
   return (
     <div
       key={title}
-      className="relative hover:bg-primary-700 py-10 px-7 sm:px-10 flex flex-col justify-between gap-4 rounded-[30px] bg-primary-500"
-      data-aos={index % 2 === 0 ? "fade-left" : "fade-right"}
+      className="relative transition-all! duration-1000! hover:bg-primary-700 py-10 px-7 sm:px-10 flex flex-col justify-between gap-4 rounded-[30px] bg-primary-500"
+      data-aos={index % 2 === 0 ? "fade-right" : "fade-left"}
       data-aos-duration={1200}
     >
       {/*//* Qoma overlay */}

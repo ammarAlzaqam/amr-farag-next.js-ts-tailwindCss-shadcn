@@ -8,7 +8,7 @@ import Services from "@/components/pages/Services";
 
 export default function HomePage() {
   return (
-    <section className="">
+    <section className="bg-[linear-gradient(to_bottom,#D3E2F8,#CFE9FC)]">
       <Home />
       <About className="pt-[30px] sm:pt-[139px]" />
       <Services />

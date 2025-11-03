@@ -22,7 +22,7 @@ export default function Services() {
           {servicesCards().map(({ icon, title, des }, i) => (
             <div
               key={title}
-              className={`relative group z-2 h-[200px] sm:h-[345px] rounded-[30px] bg-primary-500 hover:bg-primary-400 p-5 sm:p-11 space-y-11 flex flex-col justify-center sm:justify-start overflow-hidden ${
+              className={`relative z-2 h-[200px] sm:h-[345px] rounded-[30px] bg-primary-500 hover:bg-primary-700 p-5 sm:p-11 space-y-11 flex flex-col justify-center sm:justify-start overflow-hidden ${
                 (i === 2 || i === 3) && "sm:justify-end!"
               }`}
             >
@@ -33,7 +33,7 @@ export default function Services() {
               />
 
               <div className="space-y-3">
-                <h3 className="card-title group-hover:text-primary-500!">{title}</h3>
+                <h3 className="card-title">{title}</h3>
 
                 <ul className="card-des list-disc ms-4">
                   {des.map((d, i) => (
